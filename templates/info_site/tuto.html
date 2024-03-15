@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tutoriel</title>
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <link href="css/styleTuto.css" rel="stylesheet"/>
+                <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.0em%22 font-size=%2296%22>🏠</text></svg>">
+        <style>
+            body {
+                background: url("imgTuto/background.png") fixed center;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home">
+                    <img src="imgTuto/logo.png" alt="Logo">
+                </a>
+                <a class="navbar-brand" aria-current="page" href="home">
+                    <img src="imgTuto/edutech.png" alt="Logo de EduTech"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center text-center">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="offre">Offres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="entreprise">Entreprises</a>
+                        </li>
+                                            </ul>
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto d-flex flex-row justify-content-center">
+                        <li class="nav-item">
+                                <form class="d-flex" role="search" method="get">
+        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search" name="textRecherche" value="">
+        <button class="btn btn-outline-success" type="submit">🔎</button>
+    </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-success text-white btn-connection" href="login">Se Connecter</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+            <div class="menu_bloc">
+        <h1>TUTORIELS</h1>
+        <div class="menu_items">
+            <h3>
+                <a href="#Connexion">I. Connexion</a>
+            </h3>
+            <div class="barre"></div>
+            <h3>
+                <a href="#Inscription">II. Inscription</a>
+            </h3>
+            <div class="barre"></div>
+            <h3>
+                <a href="#Modification">III. Modification</a>
+            </h3>
+        </div>
+    </div>
+    <br>
+    <div class="titre_home">
+        <div>
+            <h1 id="Connexion">I. Connexion</h1>
+        </div>
+    </div>
+    <br>
+        <div class="bloc_offres">
+            <div class="bloc_offre">
+                <div class="bloc_offre_img">
+                    <div class="bloc_1"></div>
+                </div>
+                <div class="bloc_offre_txt">
+                    <div class="infos1">
+                        <div class="infos1_1">
+                            <h3>Pré-connexion</h3>
+                        </div>
+                    </div>
+                    <p class="description">Avant de vous connecter, vous avez un <b>accès limité</b> au site.</p>
+                    <p class="description">Vous ne pouvez accéder qu'à la <a href="home">page d'accueil</a>, ainsi qu'aux pages disponibles via les liens situés en pied de page.</p>
+                    <p class="description">Pour accéder au reste du site, il vous faut vous connecter à votre compte. Pour cela, rien de plus simple, vous devez d'abord cliquer 
+                        sur le <b>bouton de connexion</b> situé en haut à droite de l'écran, dans la barre de navigation.</p>
+                    <div class="bloc_offre_img">
+                        <div class="bloc_2">
+                            <img src="imgTuto/connexion.PNG" alt="Bouton de connexion"/>
+                        </div>
+                    </div>
+                    <div class="infos1">
+                        <div class="infos1_1">
+                            <h3>Connexion</h3>
+                        </div>
+                    </div>
+                    <p class="description">Une fois arrivé sur <a href="login">la page de connexion</a>, vous verrez un formulaire de connexion : </p>
+                    <div class="bloc_offre_img">
+                        <div class="bloc_2">
+                            <img src="imgTuto/connexion-form-empty.PNG" alt="Formulaire de connexion vide" height="300px"/>
+                        </div>
+                    </div>
+                    <p class="description">
+                        Vous devez alors entrer votre <b>adresse mail</b> ainsi que votre <b>mot de passe</b>. Pour des raisons de sécurité, votre mot de passe
+                        sera caché, vous ne pourrez donc voir ce que vous entrez. Une fois connecté, un nouveau lien est disponible dans votre barre de navigation, permettant 
+                        d'accéder à votre profil ainsi qu'à vos inscriptions. Pour plus d'informations sur le profil, voir <a href="#Modification" >cette section du tutoriel</a>.
+                    </p>
+                    <div class="bloc_offre_img">
+                        <div class="bloc_2">
+                            <img src="imgTuto/connexion-form-full.PNG" alt="Formulaire de connexion rempli" height="300px"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br>
+    <div class="titre_home">
+        <div>
+            <h1 id="Inscription">II. Inscription</h1>
+        </div>
+    </div>
+    <br>
+    <div class="bloc_offres">
+        <div class="bloc_offre">
+            <div class="bloc_offre_img">
+                <div class="bloc_1"></div>
+            </div>
+            <div class="bloc_offre_txt">
+                <div class="infos1">
+                    <div class="infos1_1">
+                        <h3>Création du nouveau compte</h3>
+                    </div>
+                </div>
+                <p class="description">Si vous n'avez pas de compte, il vous faut en créer un.</p>
+                <p class="description">Afin de vous créer un compte, rendez-vous sur <a href="login">la page de connexion</a> comme indiqué plus haut.
+                    Ensuite, vous remarquerez un lien pour s'inscrire en bas du formulaire de connexion. Cliquez dessus pour accéder à <a href="login">la page d'inscription</a>.
+                </p>
+                <div class="bloc_offre_img">
+                    <div class="bloc_2">
+                        <img src="imgTuto/inscription-link.png" alt="Bouton d'inscription"/>
+                    </div>
+                </div>
+                <div class="infos1">
+                    <div class="infos1_1">
+                        <h3>Remplissage du formulaire</h3>
+                    </div>
+                </div>
+                <p class="description">Une fois arrivé sur la page, vous verrez un formulaire d'inscription : </p>
+                <div class="bloc_offre_img">
+                    <div class="bloc_2">
+                        <img src="imgTuto/inscription-form-empty.png" alt="Formulaire de connexion vide" height="300px"/>
+                    </div>
+                </div>
+                <p class="description">
+                    Vous devez alors <b>remplir le formulaire</b> avec vos informations. Quelques indications sur les informations à remplir :
+                </p>
+                <p class="description">
+                    - L'adresse mail est de la forme xxxx@xxxxx.xxx et <b>doit être unique</b>. Si vous obtenez une erreur, il est possible que l'adresse que vous tentez
+                    d'enregistrer soit déjà utilisée pour un compte. Vérifiez si vous ne possédez pas dejà un compte sur notre site, ou essayez une autre adresse.
+                </p>
+                <p class="description">
+                    - Pour le mot de passe, essayez d'en choisir un <b>le plus sécurisé possible</b>. Nous conseillons une longeur de 8 minimum avec au moins 1 lettre majuscule, chiffre,
+                    et charactère spécial.
+                </p>
+                <p class="description">
+                    - Le numéro de téléphone peut être de la forme 0X XX XX XX XX ou +XX(X) XX XX XX XX et ses dérivées, au choix.
+                </p>
+                <p class="description">
+                    - Vous pouvez déposer un CV ainsi qu'une lettre de motivation générale si vous le souhaitez, qui seront disponibles sur votre profil et seront
+                    transmis aux entreprises pour lesquelles vous postulez. Ils resteront privés en dehors de ces cas précis. Il vous est demandé d'utiliser le <b>format PDF</b>
+                    et de ne pas dépasser une certaine taille de fichier. <b>(50 Mo)</b>
+                </p>
+                <div class="infos1">
+                    <div class="infos1_1">
+                        <h3>Exemple Vidéo : <a href="imgTuto/inscription.mp4">(télécharger)</a></h3>
+                    </div>
+                </div>
+                <div class="bloc_offre_img">
+                    <div class="bloc_2">
+                        <video controls width="700">
+                            <source src="imgTuto/inscription.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div></div>
+    <br>   
+    <div class="titre_home">
+        <div>
+            <h1 id="Modification">III. Modification</h1>
+        </div>
+    </div>
+    <br>
+    <div class="bloc_offres">
+        <div class="bloc_offre">
+            <div class="bloc_offre_img">
+                <div class="bloc_1"></div>
+            </div>
+            <div class="bloc_offre_txt">
+                <div class="infos1">
+                    <div class="infos1_1">
+                        <h3>Profil</h3>
+                    </div>
+                </div>
+                <p class="description">Vous êtes désormais connectés à votre compte. Vous allez donc pouvoir accéder à la partie du site dédiée à votre compte.</p>
+                <p class="description">Observez la barre de navigation, vous devriez désormais y voir un nouvel onglet nommé "Mon Compte". En passant la souris dessus,
+                    vous pouvez voir que deux pages y sont situées. La page <a href="inscription">"Mes inscriptions"</a> répertorie les offres auxquelles vous vous êtes inscrits et vous permet
+                    de les suivre. Nous allons nous intéresser à la deuxième, votre profil.
+                </p>
+                <div class="bloc_offre_img">
+                    <div class="bloc_2">
+                        <img src="imgTuto/profil.png" alt="Exemple de profil" width="600px"/>
+                    </div>
+                </div>
+                <div class="infos1">
+                    <div class="infos1_1">
+                        <h3>Modification des informations</h3>
+                    </div>
+                </div>
+                <p class="description">Sur votre <a href="profil">page de profil</a>, vous pouvez voir toutes les informations qui vous concernent, et vous pouvez également cliquer sur
+                    votre CV ou votre lettre pour y accéder ou les télécharger.
+                </p>
+                <p class="description">Deux boutons sont situés en bas de la page, le premier permet de <a href="profil/modif"> modifier son profil </a>. Si, à tout moment, vous souhaitez changer les
+                    informations contenues dans votre profil, il vous suffit d'accéder à cette page. Vous y trouverez un formulaire très similaire à celui 
+                    <a href="#Inscription">d'inscription</a>, mais prérempli avec vos informations actuelles. Vous pouvez alors modifier vos informations et sauvegarder
+                    les changements.
+                </p>
+                <div class="bloc_offre_img">
+                    <div class="bloc_2">
+                        <img src="imgTuto/profil-modif.png" alt="Formulaire de modification du profil" height="300px"/>
+                    </div>
+                </div>
+                <p class="attention">! Attention ! Ne pas oublier de retaper son mot de passe à l'identique si vous ne souhaitez pas le modifier !
+                </p>
+                <p class="description">
+                    Les restrictions sur les informations sont les mêmes que lors de <a href="#Inscription">l'inscription</a>.
+                </p>
+                <div class="infos1">
+                    <div class="infos1_1">
+                        <a href="">Exemple Vidéo -</a><a href="imgTuto/modification.mp4">(télécharger)</a>
+                    </div>
+                </div>
+                <div class="bloc_offre_img">
+                    <div class="bloc_2">
+                        <video controls width="700">
+                            <source src="imgTuto/modification.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cred">
+        <p>Par Cladel Valentin le 07/03/2024</p>
+    </div>
+        <footer>
+            <div class="footer_1">
+                <img src="imgTuto/logo.png" alt="Logo de EduTech">
+                <div class="footer_1_1">
+                    <img src="imgTuto/edutech.png" alt="Logo de EduTech"/>
+                </div>
+                <div class="footer_1_2">
+                    <h4>INFOS UTILES</h4>
+                    <p>
+                        <a href="a-propos">À propos de nous</a>
+                    </p>
+                    <p>
+                        <a href="conditions-generales-d-utilisation">Conditions d'utilisation</a>
+                    </p>
+                    <p>
+                        <a href="mentions-legales">Mentions légales</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer_2"></div>
+            <p class="text-center">&copy; 2023 EduTech. Tous droits réservés.</p>
+        </footer>
+
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
